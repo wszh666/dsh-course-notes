@@ -1,0 +1,27 @@
+{
+  "name": "dsh-course-notes",
+  "version": "1.0.0",
+  "description": "B 站课程实时笔记助手：定时观察浏览器前台窗口检测视频课程，按关键词自动学科分类，抓取简介/字幕/弹幕/评论做知识总结，输出 Word 知识地图，并把单视频笔记投递到一个新建会话的对话框中",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "video",
+    "bilibili",
+    "course",
+    "notes"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "scripts",
+    "cordis.patch.yml",
+    "README.md"
+  ]
+}

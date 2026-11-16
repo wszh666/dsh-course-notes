@@ -1,0 +1,6 @@
+# dsh-course-notes bundle patch：把本插件行插入 profile 的插件清单。
+# 用 plugin_manager 以 link:/file: 规格安装后自动应用；不要再在 profile
+# patch 里 insert 同一个 id（重复 id 会让加载器报 duplicate loader entry id）。
+- insert:
+    - id: dsh-course-notes
+      name: 'dsh-course-notes'
